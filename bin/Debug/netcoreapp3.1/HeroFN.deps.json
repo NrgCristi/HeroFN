@@ -1,0 +1,68 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "HeroFN/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "libcrypto.UWP": "1.0.5",
+          "openssl-vc140-vc141-x86_64": "1.1.5",
+          "openssl-vc141-static-x86_64": "1.1.0"
+        },
+        "runtime": {
+          "HeroFN.dll": {}
+        }
+      },
+      "libcrypto.UWP/1.0.5": {},
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "openssl-vc140-vc141-x86_64/1.1.5": {},
+      "openssl-vc141-static-x86_64/1.1.0": {}
+    }
+  },
+  "libraries": {
+    "HeroFN/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "libcrypto.UWP/1.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RUKXCv8J1zgOXyDwqPYE0Dy1YbcZEAWY60qGDwAF+KuLpYzgJNtfoJffmEWA87i8yeWzT+WAia/nBX2oouiBlw==",
+      "path": "libcrypto.uwp/1.0.5",
+      "hashPath": "libcrypto.uwp.1.0.5.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "openssl-vc140-vc141-x86_64/1.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Qj8OhZMzWEeu92ySkAChtv14Z1eXg0fBJsgmXpvsTb/ekwSYpRbMk6GOE5k7p3N27WchED+mbNp9x+2hg4hdxg==",
+      "path": "openssl-vc140-vc141-x86_64/1.1.5",
+      "hashPath": "openssl-vc140-vc141-x86_64.1.1.5.nupkg.sha512"
+    },
+    "openssl-vc141-static-x86_64/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zKUWQX+jJHeGJr+SA3ejUQBJKJqiM9OrPlbyLGslMsMM2xRm0Tx3yCMp6IDEb2H5qG3q7snx+U/F2qOq5mdx/Q==",
+      "path": "openssl-vc141-static-x86_64/1.1.0",
+      "hashPath": "openssl-vc141-static-x86_64.1.1.0.nupkg.sha512"
+    }
+  }
+}

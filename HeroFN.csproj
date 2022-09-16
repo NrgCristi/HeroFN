@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="libcrypto.UWP" Version="1.0.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="openssl-vc140-vc141-x86_64" Version="1.1.5" />
+    <PackageReference Include="openssl-vc141-static-x86_64" Version="1.1.0" />
+  </ItemGroup>
+
+</Project>
